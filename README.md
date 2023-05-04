@@ -1,1 +1,1 @@
-# FusedWebsite
+For my web development class, our final project was simply to make a website. I chose to make a new website for a gaming clan I was a part of called Fused Legions. Our old one was able to direct people to our discord and steam group, but nothing else. It looked bad, and was in desperate need of a refresh. My website took inspiration from other squad clans while still retaining its true purpose- Directing people to our discord.
