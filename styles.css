@@ -1,0 +1,613 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 350px;
+  align-items: center;
+}
+
+nav a {
+font-weight: 900;
+}
+
+nav ul {
+list-style-type: none;
+padding-top: 5px;
+padding-bottom: 20px;
+}
+
+nav li {
+display: inline-flex;
+}
+
+h3 {
+font-weight: 600;
+}
+
+#buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-right: 50px;
+  flex-wrap: wrap;
+}
+
+
+
+#splash {
+flex: 1 1 auto;
+font-weight: 900;
+margin-left: 10%;
+color: #161920e1;
+font-size: x-large;
+margin-bottom: 50px;
+}
+
+.discordbutton {
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: #5865F2;
+  width: 200px;
+  height: 75px;
+  border-radius: 12px;
+  font-size: x-large;
+  font-weight: 900;
+  
+}
+
+.calcbutton {
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: #26272b;
+  width: 200px;
+  height: 75px;
+  border-radius: 12px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.mapsbutton {
+  color: white;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0b3b2f;
+  width: 200px;
+  height: 75px;
+  border-radius: 12px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+#special {
+  border: black;
+  border-radius: 8px;
+  border: 10px;
+  width: 100%;
+  max-width: 700px;
+}
+
+#discordimg {
+  width: 95%;
+  height: auto;
+  padding-top: 5%;
+}
+
+#splashsmall {
+font-weight: 400;
+padding-right: 50px;
+}
+
+#splash2 {
+  /*
+  text-shadow:
+    -1px -1px 0 rgb(182, 182, 182),
+    1px -1px 0 rgb(182, 182, 182),
+    -1px 1px 0 rgb(182, 182, 182),
+    1px 1px 0 rgb(182, 182, 182);
+    */
+    color: #161920e1;
+    flex: 1 1 auto;
+    font-weight: 900;
+    margin-left: 10%;
+    font-size: x-large;
+    margin-bottom: 50px;
+    height: fit-content;
+}
+
+#mobile {
+font-size: 30px;
+padding-left: 50px;
+color: #161920;
+font-weight: 900;
+text-shadow:
+      -1px -1px 0 whitesmoke,
+      1px -1px 0 white,
+      -1px 1px 0 white,
+      1px 1px 0 white;
+text-align: center;
+}
+
+#server {
+  padding: 25px;
+  text-align: center;
+  align-self: center;
+  font-weight: 900;
+  color: #b6bac2;
+  width: 80%;
+  height: 80%;
+}
+
+body {
+display: flex;
+flex-direction: column;
+  text-align: left;
+  background-color: #161920;
+  clear: left;
+
+  /* all of the pages will have their body background as inline css, this is just a kind of fallback in case they dont work */
+
+  background-image: url("images/Helicopter.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 110%;
+}
+
+#bghome {
+  background-color: white;
+  background-image: url("images/Helicopter.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+
+#bgreport {
+  background-color: white;
+  background-image:linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  ), url("images/Tankonroof.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+  
+}
+#bghelp {
+  background-color: white;
+  background-image: url("images/Valley.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgsquad {
+  background-color: white;
+  background-image: url("images/FloatingMan.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgcontent {
+  background-color: white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3)
+  ), url("images/InsurgentBinoc.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgservers {
+  background-color: white;
+  background-image: url("images/FloatingMan.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgjoin {
+  background-color: white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)
+  ), url("images/checkpoint.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgrules {
+  background-color: white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)
+  ), url("images/Hostig.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+
+div {
+  margin-top: 15px;
+}
+
+#image {
+  float: left;
+  width: auto;
+  max-width: 588px;
+  max-height: 180px;
+
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+  color: #535557;
+}
+
+a:visited {
+  color: #535557;
+}
+
+a:hover {
+  color: #265774;
+}
+
+footer {
+  background-color: rgba(211, 211, 211, 0.459);
+  text-align: center;
+  box-shadow: 0 50vh 0 50vh rgba(211, 211, 211, 0.459);
+  position : absolute; 
+  bottom : 1px;
+  height : 40px;
+  width: 99%;
+}
+
+
+
+header, nav, main, footer { display: block; }
+
+#mobile { display: none; }
+#desktop { display: inline; }
+
+
+@media only screen and (max-width: 1024px) {
+  body {
+      margin: 0px;
+      padding: 0%;
+      background-image: url("images/HelicopterTablet.png");
+  }
+
+  #bghome {
+    background-color: white;
+    background-image: url("images/HelicopterTablet.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+
+  #bgreport {
+    background-color: white;
+    background-image:linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ), url("images/Tankonrooftablet.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+  #bghelp {
+    background-color: white;
+    background-image: url("images/ValleyTablet.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+  #bgsquad {
+    background-color: white;
+    background-image: url("images/FloatingMan.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+  #bgcontent {
+    background-color: white;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ), url("images/InsurgentBinoc.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+  #bgservers {
+    background-color: white;
+    background-image: url("images/FloatingMan.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+  #bgjoin {
+    background-color: white;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ), url("images/checkpoint.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+  #bgrules {
+    background-color: white;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ), url("images/Hostig.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    margin-bottom: 1px;
+  }
+
+  #image {
+    float: inline-start;
+    width: auto;
+    max-width: 588px;
+    max-height: 180px;
+    position: relative; left: auto;
+  }
+
+  #wrapper {
+      width: auto;
+      min-width: 0;
+      margin: 0%;
+  }
+
+  nav {
+      float: none;
+      padding: 0%;
+      width: auto;
+      font-size: 10px;
+  }
+
+  nav ul {
+    clear: both;
+  }
+
+  nav li {
+      display: inline-block;
+  }
+
+  nav a {
+      padding-bottom: 5px;
+      font-size: 1.2em;
+  }
+  
+  nav ul {
+      text-align: center;
+      padding: 0%;
+      margin: 0%;
+  }
+
+  main {
+      font-size: 90%;
+      margin: 0%;
+      padding-left: 2em;
+  }
+
+  footer {
+    background-color: rgba(211, 211, 211, 0.459);
+    text-align: center;
+    box-shadow: 0 50vh 0 50vh rgba(211, 211, 211, 0.459);
+    position : absolute; 
+    bottom : 1px;
+    height : 40px;
+    width: 99%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+body {
+  background-color: white;
+  background-image: url("images/FloatingMan.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+
+#bghome {
+  background-color: white;
+  background-image: url("images/FloatingMan.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+
+#bgreport {
+  background-color: white;
+  background-image:linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  ), url("images/Tankonroofmobile.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bghelp {
+  background-color: white;
+  background-image: url("images/ValleyMobile.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgsquad {
+  background-color: white;
+  background-image: url("images/FloatingMan.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgcontent {
+  background-color: white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3)
+  ), url("images/InsurgentBinoc.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgservers {
+  background-color: white;
+  background-image: url("images/FloatingMan.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgjoin {
+  background-color: white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  ), url("images/checkpoint.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+#bgrules {
+  background-color: white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.2)
+  ), url("images/Hostig.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 130%;
+  margin-bottom: 1px;
+}
+
+
+
+#image {
+  float: none;
+  width: auto;
+  max-width: 90%;
+  max-height: 170px;
+  margin: none;
+  padding: none;
+}
+
+  h1 {
+      font-size: 1.5em;
+      line-height: 120%;
+  }
+
+  nav {
+    background-color: #161920;
+    margin: none;
+    padding: none;
+  }
+
+  nav a {
+    text-align: center;
+      display: inline;
+      padding: none;
+      font-size: 20px;
+      margin: none;
+      text-shadow:
+      -1px -1px 0 rgb(0, 1, 46),
+      1px -1px 0 rgb(0, 1, 46),
+      -1px 1px 0 rgb(0, 1, 46),
+      1px 1px 0 rgb(0, 1, 46),
+  }
+
+  nav a:link {
+    color: yellow;
+  }
+  
+  nav a:visited {
+    color: yellow;
+  }
+  
+  nav a:hover {
+    color: #006faf;
+  }
+
+
+
+  nav li {
+    padding: none;
+      display: inline;
+      margin: none;
+      
+  }
+
+  nav ul {
+      text-align: center;
+      text-decoration: none;
+      background-color: #161920;
+      margin: none;
+      padding: none;
+  }
+
+  main {
+      padding-left: 1em;
+  }
+
+  footer {
+    background-color: rgba(211, 211, 211, 0.459);
+    text-align: center;
+    box-shadow: 0 50vh 0 50vh rgba(211, 211, 211, 0.459);
+    position : relative; 
+    bottom : 1px;
+    height : 40px;
+    width: 99%;
+  }
+
+  .category {
+      text-shadow: none;
+  }
+
+
+  #mobile { display: inline; }
+  #desktop { display: none; }
+
+}
